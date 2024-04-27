@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Black+Ops+One&family=PT+Serif&family=Roboto:ital,wght@0,100;0,400;1,300&family=Work+Sans:ital,wght@0,100;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Black+Ops+One&family=PT+Serif&family=Roboto:ital,wght@0,100;0,400;1,300&family=Work+Sans:ital,wght@0,100;0,600;1,100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+.container{
+    background-color: #0c0c0c;
+    max-width: 75%;
+    height: 90%;
+    padding: 12px;
+    margin: auto auto;   
+    
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+/*img*/
+
+.img{
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.img img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 9px double antiquewhite;
+}
+
+.img img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    overflow: hidden;
+    filter: drop-shadow(5px 5px 10px rgb(6, 6, 6)); 
+}
+
+/*social*/
+
+.social-1{
+    font-size: 30px;
+    padding-left: 85px;
+    letter-spacing: 6px;
+}
+
+.social-1 a{
+    color: inherit;
+    border: 1px solid #ccc;
+    width:40px;
+    height: 40px;
+    padding-left: 6px;
+}
+
+.social-1 a:hover{
+    transition: 0.5s ease-in-out;
+}
+
+.social-2{
+    font-size: 30px;
+    padding-left: 106px;
+    letter-spacing: 6px;
+    padding-top: 12px;
+}
+
+.social-2 a{
+    color: inherit;
+    border: 1px solid #ccc;
+    width:40px;
+    height: 40px;
+    padding-left: 6px;
+}
+
+.social-2 a:hover{
+    transition: 0.5s ease-in-out;
+}
+
+/*info*/
+
+.info{
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.info>h2{
+    font-size: 45px;
+    color: #F57740;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    line-height: 47px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.info>h4{
+    padding-top: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(89, 82, 82);
+}
+
+.info>p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*Main content*/
+.content{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 47px;
+    line-height: 26px;
+    padding-left: 40px;
+    color:grey; 
+}
+
+.main_section{
+    padding-top: 25px ;
+    width: 100%;
+ 
+}
+
+.section>.first,.second{
+    padding: 7px 0px;
+}
+
+.heading{
+   font-size: 20px;
+   color: #F57740;
+   text-decoration: underline; 
+   padding-bottom: 15px;
+}
+
+/*Education*/
+.year{
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.grad{
+    color: white;
+}
+
+.section>h4{
+    color: #F57740;
+}
+
+/*Technical skills*/
+
+table,th,td{
+    border: 2px solid white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+    margin:20px;
+    grid-area: auto;
+}
+
+/*projects*/
+
+.projects{
+    line-height: 25px;
+    break-before: avoid;
+}
+.projects a{
+    text-decoration: none;
+    color: grey;
+}
+
+.projects li{
+list-style: none;
+}
+
+.projects p{
+    color: white;
+}
+
+/*experience*/
+
+.experience span{
+ color: white;
+}
+
+/*certifications*/
+
+
+.certificates{
+    padding-left: px;
+}
+
+.certificates a{
+    text-decoration: none;
+    color: grey;
+   
+}
+
+.certificates li{
+    list-style: none;
+}
+.certificates a p{
+    color: white;
+    font-size: 16px;
+}
+
+/*soft skills*/
+.list{
+    padding-left: 17px;
+}
+
+/*Volunteering*/
+
+.volunteering{
+    padding: 7px 0px;
+}
+
+#vol{
+    color: white;
+    padding-left: 14px;
+}
+
+
+
+
